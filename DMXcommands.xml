@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DMX_CONTROL version="2.00">
+
+  <!-- ********************************************************************************************* -->
+  <event type="NORMAL_CONDITION_1" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="0" value="255" change="0"/>
+	<setvalue index="1" value="0" change="0"/>
+	<setvalue index="3" value="0" change="0"/>
+	<setvalue index="7" value="0" change="0"/>
+	<setvalue index="15" value="0" change="0"/>
+	<setvalue index="17" value="0" change="0"/>
+	<setvalue index="18" value="0" change="0"/>
+	<setvalue index="19" value="0" change="0"/>
+	<setvalue index="32" value="0" change="0"/>
+	<setvalue index="33" value="0" change="0"/>
+	<setvalue index="34" value="0" change="0"/>
+	<setvalue index="40" value="0" change="0"/>
+	<setvalue index="41" value="0" change="0"/>
+	<setvalue index="42" value="0" change="0"/>
+	<setvalue index="43" value="0" change="0"/>
+	<setvalue index="44" value="0" change="0"/>
+	<setvalue index="56" value="0" change="0"/>
+	<setvalue index="57" value="0" change="0"/>
+	<setvalue index="66" value="0" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+  <!-- ********************************************************************************************* -->
+  <event type="GAME_OVER" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="1" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="RED_ALERT" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="3" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="PLAYER_SHIELDS_ON" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="7" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="FRONT_SHIELD_LOW">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="8" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="8" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="REAR_SHIELD_LOW">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="9" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="9" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="JUMP_INITIATED">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="10" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="10" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="JUMP_EXECUTED">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="11" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="11" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="JUMP_FIZZLED">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="12" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="12" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+
+<!-- ********************************************************************************************* -->
+  <event type="WITHIN_NEBULA" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="15" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="TRACTORED_FOR_DOCKED" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="17" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="COMPLETELY_DOCKED" continuous="yes">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="18" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="HELM_IN_REVERSE" continuous="yes">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="19" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+
+<!-- ********************************************************************************************* -->
+  <event type="SOMETHING_HITS_PLAYER">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="20" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="20" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="NPC_BEAM_HITS_PLAYER">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="21" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="21" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="PLAYER_BEAM_HITS_PLAYER">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="22" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="22" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="TORPEDO_HITS_PLAYER">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="23" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="23" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="MINE_HITS_PLAYER">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="24" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="24" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="LIGHTNING_HITS_PLAYER">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="25" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="25" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="COLLISION_HITS_PLAYER">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="26" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="26" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="DRONE_HITS_PLAYER">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="27" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="27" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="PLAYER_TAKES_INTERNAL_DAMAGE">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="28" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="28" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="PLAYER_TAKES_SHIELD_DAMAGE">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="29" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="29" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="PLAYER_TAKES_FRONT_SHIELD_DAMAGE">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="30" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="30" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="PLAYER_TAKES_REAR_SHIELD_DAMAGE">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="31" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="31" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+
+<!-- ********************************************************************************************* -->
+  <event type="SHIP_DAMAGE_20" continuous="yes">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="32" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="SHIP_DAMAGE_40" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="33" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="SHIP_DAMAGE_60" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="34" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="PLAYER_DESTROYED">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="35" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="35" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+<!-- ********************************************************************************************* -->
+  <event type="SELF_DESTRUCTED">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="36" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="36" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+
+<!-- ********************************************************************************************* -->
+  <event type="DAMCON_CASUALTY">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="37" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="37" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="JUST_KILLED_DAMCON_MEMBER">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="38" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="38" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+
+<!-- ********************************************************************************************* -->
+  <event type="ENERGY_LOW">
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="39" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="39" value="0" change="0"/>
+      
+    </timeblock>
+   
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="ENERGY_20" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="40" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="ENERGY_40" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="41" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="ENERGY_60" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="42" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="ENERGY_80" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="43" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+<!-- ********************************************************************************************* -->
+  <event type="ENERGY_100" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="44" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="HELM_IN_REVERSE" continuous="yes">
+
+    <!-- steady soft white light -->
+    <timeblock mseconds="1000">
+
+      <setvalue index="19" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+  <!-- ********************************************************************************************* -->
+  <event type="UNLOADING_TUBE">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="46" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="46" value="0" change="0"/>
+      
+    </timeblock>
+
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="LOADING_TUBE">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="51" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="51" value="0" change="0"/>
+      
+    </timeblock>
+
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="ANY_TUBE_READY_TO_FIRE" continuous="yes">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="56" value="255" change="0"/>
+      
+    </timeblock>
+
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="ANY_TUBE_EMPTY" continuous="yes">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="57" value="255" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+<!-- ********************************************************************************************* -->
+  <event type="FINISHED_LOADING_TUBE1">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="58" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="58" value="0" change="0"/>
+      
+    </timeblock>
+
+
+  </event>
+
+<!-- ********************************************************************************************* -->
+  <event type="FINISHED_LOADING_TUBE2">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="59" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="59" value="0" change="0"/>
+      
+    </timeblock>
+
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="FINISHED_LOADING_TUBE3">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="60" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="60" value="0" change="0"/>
+      
+    </timeblock>
+
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="FINISHED_LOADING_TUBE4">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="61" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="61" value="0" change="0"/>
+      
+    </timeblock>
+
+
+  </event>
+
+<!-- ********************************************************************************************* -->
+  <event type="FINISHED_UNLOADING_TUBE1">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="62" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="62" value="0" change="0"/>
+      
+    </timeblock>
+
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="FINISHED_UNLOADING_TUBE2">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="63" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="63" value="0" change="0"/>
+      
+    </timeblock>
+
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="FINISHED_UNLOADING_TUBE3">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="64" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="64" value="0" change="0"/>
+      
+    </timeblock>
+
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="FINISHED_UNLOADING_TUBE4">
+	 <timeblock mseconds="1000">
+
+      <setvalue index="65" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="65" value="0" change="0"/>
+      
+    </timeblock>
+
+
+  </event>
+
+<!-- ********************************************************************************************* -->
+  <event type="NUKE_READY_TO_FIRE" continuous="yes">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="66" value="255" change="0"/>
+      
+    </timeblock>
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="TORP_HOMING_FIRED">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="67" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="67" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="TORP_NUKE_FIRED">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="68" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="68" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="TORP_MINE_FIRED">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="69" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="69" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="TORP_EMP_FIRED">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="70" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="70" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+<!-- ********************************************************************************************* -->
+  <event type="TORP_PSHOCK_FIRED">
+
+    <timeblock mseconds="1000">
+
+      <setvalue index="71" value="255" change="0"/>
+      
+    </timeblock>
+
+	<timeblock mseconds="1000">
+
+      <setvalue index="71" value="0" change="0"/>
+      
+    </timeblock>
+
+  </event>
+
+
+
+
+
+  <!-- ********************************************************************************************* -->
+  <!-- ALL event tags that are generated by the game (many of them are not used in this script)
+
+
+PLAYER_SHIELDS_RAISED
+PLAYER_SHIELDS_ON
+PLAYER_SHIELDS_LOWERED
+PLAYER_SHIELDS_ON
+RED_ALERT
+JUST_KILLED_DAMCON_MEMBER
+SELF_DESTRUCTED
+SHIP_DAMAGE_20
+SHIP_DAMAGE_40
+SHIP_DAMAGE_60
+COMPLETELY_DOCKED
+TRACTORED_FOR_DOCKED
+COMPLETELY_DOCKED
+JUMP_INITIATED
+JUMP_EXECUTED
+JUMP_FIZZLED
+FRONT_SHIELD_LOW
+REAR_SHIELD_LOW
+ENTERING_NEBULA
+WITHIN_NEBULA
+EXITING_NEBULA
+START_DOCKING
+TRACTORED_FOR_DOCKED
+HELM_IN_REVERSE
+
+SOMETHING_HITS_PLAYER
+NPC_BEAM_HITS_PLAYER
+PLAYER_BEAM_HITS_PLAYER
+TORPEDO_HITS_PLAYER
+MINE_HITS_PLAYER
+LIGHTNING_HITS_PLAYER
+COLLISION_HITS_PLAYER
+DRONE_HITS_PLAYER
+PLAYER_TAKES_INTERNAL_DAMAGE
+PLAYER_TAKES_SHIELD_DAMAGE
+PLAYER_TAKES_FRONT_SHIELD_DAMAGE
+PLAYER_TAKES_REAR_SHIELD_DAMAGE
+DAMCON_CASUALTY
+SHIP_DAMAGE_20
+SHIP_DAMAGE_40
+SHIP_DAMAGE_60
+PLAYER_DESTROYED
+GAME_OVER
+
+ENERGY_LOW
+ENERGY_20
+ENERGY_40
+ENERGY_60
+ENERGY_80
+ENERGY_100
+ENERGY_200
+
+//new for 2.1
+UNLOADING_TUBE
+UNLOADING_TUBE1
+UNLOADING_TUBE2
+UNLOADING_TUBE3
+UNLOADING_TUBE4
+LOADING_TUBE
+LOADING_TUBE1
+LOADING_TUBE2
+LOADING_TUBE3
+LOADING_TUBE4
+ANY_TUBE_READY_TO_FIRE
+ANY_TUBE_EMPTY
+FINISHED_LOADING_TUBE1
+FINISHED_LOADING_TUBE2
+FINISHED_LOADING_TUBE3
+FINISHED_LOADING_TUBE4
+FINISHED_UNLOADING_TUBE1
+FINISHED_UNLOADING_TUBE2
+FINISHED_UNLOADING_TUBE3
+FINISHED_UNLOADING_TUBE4
+NUKE_READY_TO_FIRE
+
+TORP_HOMING_FIRED
+TORP_NUKE_FIRED
+TORP_MINE_FIRED
+TORP_EMP_FIRED
+TORP_PSHOCK_FIRED
+
+WAR_TURN_WARNING
+
+ITEM_COLLECTED
+
+
+  -->
+  <!-- ********************************************************************************************* -->
+
+
+</DMX_CONTROL>
