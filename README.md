@@ -6,6 +6,8 @@ Attached sketches are written for Teensy-LC using Arduino/Teensyduino:
   https://www.arduino.cc/en/Main/Software  
   https://www.pjrc.com/teensy/td_download.html
   
+ACP3 Guide...pdf  --- Very important documentation to help get started
+
 Current sketches are work-in-progress, adapting code from a previous version of the control panels, but the same Teensy-LC microcontroller.  
 ACP3-X-CTL-DMX_REV_A.ino //test master controller code to check functionality of the ACP3 control panel communciations  
 ACP3-N-CTL_REV_A.ino //fully-functional code to play helm using the old center and SRS panels, but new nav panel  
