@@ -8,10 +8,12 @@ Attached sketches are written for Teensy-LC using Arduino/Teensyduino:
   
 ACP3 Guide...pdf  --- Very important documentation to help get started
 
-Current sketches are work-in-progress, adapting code from a previous version of the control panels, but the same Teensy-LC microcontroller.  
-ACP3-X-CTL-DMX_REV_A.ino //test master controller code to check functionality of the ACP3 control panel communciations  
-ACP3-N-CTL_REV_A.ino //fully-functional code to play helm using the old center and SRS panels, but new nav panel  
-ACP3-E-CTL_REV_A.ino //incomplete engineering panel code  
+Current controller sketches have been updated. 201910 is the latest version. Alll sketches are for the Teensy-LC microcontroller.  
+ACP3-H-DMX. . . .ino //code for Helm control panel; doubles as master controller for all connected controllers  
+ACP3-E-CTL. . . .ino //engineering panel code 
+ACP3-W-CTL. . . .ino //weapons panel code  
+ACP3-S-CTL. . . .ino //science panel code  
+ACP3-C-CTL. . . .ino //comms panel code  
 
 Artemis_Weapons_block3_rev_A_20180327.ino //old weapons code  
 Artemis_Helm_block3_rev_B_20180319 //old helm code  
