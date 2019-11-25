@@ -11,7 +11,6 @@ ACP3 Guide...pdf  --- Very important documentation to help get started
 Current controller sketches have been updated. 201910 is the latest version. Alll sketches are for the Teensy-LC microcontroller.  
 ACP3-H-DMX. . . .ino //code for Helm control panel; doubles as master controller for all connected controllers  
 ACP3-E-CTL. . . .ino //engineering panel code 
-
 ACP3-W-CTL. . . .ino //weapons panel code  
 ACP3-S-CTL. . . .ino //science panel code  
 ACP3-C-CTL. . . .ino //comms panel code  
